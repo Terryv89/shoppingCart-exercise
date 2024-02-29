@@ -1,0 +1,25 @@
+.cart-text {
+  color: white;
+  margin-right: 15px;
+}
+
+.cart-circle {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cart-nr {
+  color: white;
+}
