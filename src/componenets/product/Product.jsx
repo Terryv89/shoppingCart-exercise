@@ -2,6 +2,7 @@ import "./product.css";
 
 const Product = (props) => {
   const { titel, subtitel, text } = props;
+
   return (
     <div className="card">
       <h3 className="card-h3">{titel}</h3>
