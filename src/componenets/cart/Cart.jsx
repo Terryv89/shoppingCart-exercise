@@ -1,12 +1,12 @@
 import "./cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
+  const { cartNr } = props;
+
   return (
     <div className="cart">
       <p className="cart-text">Cart</p>
-      <div className="cart-circle">
-        <p className="cart-nr">0</p>
-      </div>
+      <p className="cart-nr">{cartNr}</p>
     </div>
   );
 };
